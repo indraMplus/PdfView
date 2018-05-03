@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/etFileUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="Url here.."
+        android:inputType="textUri"
+        android:lines="8"
+        android:maxLines="3"
+        android:minLines="6"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etFileUrl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:background="#9fb3ba"
+        android:text="@string/download"
+        android:textColor="@android:color/background_light" />
+
+    <!--<Button
+        android:id="@+id/btnCancel"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/etFileUrl"
+        android:layout_toEndOf="@+id/btnDownload"
+        android:text="@string/cancel" />-->
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PdfView</string>
+    <string name="action_settings">Close App</string>
+    <string name="fileurl">Download from Url</string>
+    <string name="salah">Dokumen bukan PDF</string>
+    <string name="nofile">Something wrong with Url or Pdf file</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="cancel">CLOSE</string>
+    <string name="tentang">About PDFView</string>
+    <string name="pick_file">Pilih Dokumen</string>
+    <string name="share">Share</string>
+    <string name="about">Android PDF Reader Liteweight</string>
+    <string name="aboutpage">About PDFView</string>
+    <string name="about_ver">Version 1.0</string>
+    <string name="about_copy">Created By : M+ Software. PT. Solusi Perdana</string>
+    <string name="write_file">This app needs access to your file storage so that it can write files.</string>
+    <string name="listpdf">PDF Directory</string>
+</resources>

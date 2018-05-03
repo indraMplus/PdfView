@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mplus.pdfview.MainActivity">
+    <item
+        android:id="@+id/saveToEmail"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@drawable/ic_email_white_24dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/file_url"
+        android:orderInCategory="100"
+        android:title="@string/fileurl"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="@string/tentang"
+        app:showAsAction="never" />
+</menu>
